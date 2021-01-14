@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Posts"
+    url: /
+  - title: "Medium"
+    url: https://medium.jfgomez.me/
+  # - title: "Videos"
+  #   url: /
+  - title: "About"
+    url: /about
+  # - title: "CV"
+  #   url: /
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
