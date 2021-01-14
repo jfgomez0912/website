@@ -15,12 +15,12 @@ theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : 
-title_separator          : "-"
+locale                   : "en"
+title                    : "JFG"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Juan Felipe Gómez"
-description              : "An amazing website."
+description              : "Data Engineering and Machine Learning Engineering Blog"
 url                      : "https://jfgomez.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -282,3 +282,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
