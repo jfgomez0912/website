@@ -2,8 +2,6 @@
 main:
   - title: "Posts"
     url: /
-  - title: "Medium"
-    url: https://medium.jfgomez.me/
   # - title: "Videos"
   #   url: /
   - title: "About"
