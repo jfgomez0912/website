@@ -8,7 +8,8 @@ Como buenos programadores debemos ser muy conscientes del código que estamos es
 
 Y que mejor forma de empezar a mejorar nuestro código que desde las herramientas que usamos para crearlo. Es por esto que en este artículo traigo algunas de las configuraciones que uso en VSCode para escribir un código estándar de Python.
 
-{% include tip.html content="Para acceder a la configuración de VSCode, presiona (`Ctrl` + `,`) o (`⌘` + `,`). De allí das click en el ícono de arriba a la derecha para acceder al archivo settings.json que corresponde a la configuración de VSCode en formato JSON." %}
+**Tip:** Para acceder a la configuración de VSCode, presiona (`Ctrl` + `,`) o (`⌘` + `,`). De allí das click en el ícono de arriba a la derecha para acceder al archivo settings.json que corresponde a la configuración de VSCode en formato JSON.
+{: .notice--info}
 
 ## Formateo al guardar un archivo
 
@@ -35,9 +36,11 @@ Para comenzar a utilizar formatear nuestro código, debes tener instalada [la ex
 }
 ```
 
-{% include important.html content="Es importante recalcar que pueden haber varios tipos de archivos que no queremos que se formatee automáticamente. Para esto debemos asegurar que en nuestra configuración no haya un **formatter** por defecto para este tipo de archivos." %}
+**Importante:** Es importante recalcar que pueden haber varios tipos de archivos que no queremos que se formatee automáticamente. Para esto debemos asegurar que en nuestra configuración no haya un **formatter** por defecto para este tipo de archivos.
+{: .notice--warning}
 
-{% include tip.html content="Por defecto, en VSCode puedes presionar (`Alt` + `Shift` + `F`) o (`⌥` + `⇧` + `F`) para formatear el archivo que tienes abierto." %}
+**Tip:** Por defecto, en VSCode puedes presionar (`Alt` + `Shift` + `F`) o (`⌥` + `⇧` + `F`) para formatear el archivo que tienes abierto.
+{: .notice--info}
 
 Ahora se debe definir el provider encargado de hacer el formateo. Para Python, se pueden utilizar: `autopep8`, `black`, `yapf`. Yo personalmente utilizo [black](https://github.com/psf/black) que es un formatter bastante utilizado por la comunidad. Sin embargo, black por defecto utiliza un límite de longitud de línea de 120 carácteres. Por esto es que se agrega la segunda configuración para cumplir con la [longitud sugerida de 79 carácteres](https://peps.python.org/pep-0008/#maximum-line-length).
 
