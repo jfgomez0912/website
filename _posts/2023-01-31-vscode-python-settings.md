@@ -3,6 +3,7 @@ title:  "Configuraciones de VSCode que uso para programar en Python"
 date:   2023-01-31 17:27:00 -0500
 categories: entorno-de-trabajo
 tags: vscode python
+hidden: true
 ---
 Como buenos programadores debemos ser muy conscientes del código que estamos escribiendo para que este sea fácil de leer, cumpla con los estándares de estilo del lenguaje y sigan una estructura homogenea a lo largo de los proyectos. Para el caso de Python, se cuenta con el documento [PEP 8](https://peps.python.org/pep-0008/) que contiene una serie de convenciones que se sugieren seguir en el código para garantizar la legibilidad y consistencia del código.
 
